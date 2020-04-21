@@ -12,7 +12,7 @@ namespace TemperatureCalculator
             Console.WriteLine("{0} Celsius entspricht {0} Fahrenheit", celsius, fahrenheit);
             Console.WriteLine("Celsius: ");
             celsius = Convert.ToFloat(Console.ReadLine());
-            fahrenheit = 9 / 5 * celsius + 32;
+            fahrenheit = (9 / 5 * celsius) + 32;
             Console.WriteLine("Fahrenheit:", Fahrenheit);
         }
     }
